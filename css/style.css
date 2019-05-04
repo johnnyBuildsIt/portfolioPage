@@ -13,6 +13,25 @@ header {
 	background-color: blue;
 }
 
+.container {
+	display: flex;
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.logo {
+	background-color: red;
+	min-height: 100px;
+	width: 30%;
+}
+
+.name {
+	background-color: slategrey;
+	min-height: 100px;
+	width: 70%;
+}
+
+
 #featured-work {
 	display: flex;
 	flex-wrap: wrap;

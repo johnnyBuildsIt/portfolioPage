@@ -1,4 +1,8 @@
 @media screen and (min-width: 700px) {
+  .container {
+    max-width: 1200px;
+    width: 95%;
+  }
   /*
   2 * 5 = 10 (2 columns * margin of each column)
   100% - 10% = 90%
