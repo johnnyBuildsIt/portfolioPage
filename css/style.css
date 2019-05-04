@@ -13,6 +13,11 @@ header {
 	background-color: blue;
 }
 
+#featured-work {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 
 #main-image {
 	background-color: green;
@@ -23,4 +28,14 @@ header {
 	background-color: red;
 }
 
+# orange{
+	background-color: orange;
+}
 
+#darkgreen {
+	background-color: darkgreen;
+}
+
+#slategrey {
+	background-color: slategrey;
+}
