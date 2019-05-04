@@ -1,0 +1,74 @@
+body{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	min-height: 100px;
+	width: 100%;
+}
+
+
+header {
+	background-color: blue;
+}
+
+.container {
+	display: flex;
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.logo {
+	background-color: red;
+	min-height: 100px;
+	width: 30%;
+}
+
+.name {
+	background-color: slategrey;
+	min-height: 100px;
+	width: 70%;
+}
+
+
+#featured-work {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.piece {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 425px;
+}
+
+
+#main-image {
+	background-color: green;
+}
+
+
+#featured-work{
+	background-color: red;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.darkgreen {
+	background-color: darkgreen;
+}
+
+.slategrey {
+	background-color: slategrey;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.red {
+	background-color: red;
+}
