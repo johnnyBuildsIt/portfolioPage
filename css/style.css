@@ -18,6 +18,12 @@ header {
 	flex-wrap: wrap;
 }
 
+.piece {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 425px;
+}
+
 
 #main-image {
 	background-color: green;
@@ -28,14 +34,22 @@ header {
 	background-color: red;
 }
 
-# orange{
+.orange {
 	background-color: orange;
 }
 
-#darkgreen {
+.darkgreen {
 	background-color: darkgreen;
 }
 
-#slategrey {
+.slategrey {
 	background-color: slategrey;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.red {
+	background-color: red;
 }
