@@ -1,3 +1,16 @@
+/*@media screen and (min-width: 440px) {
+    #main-image {
+      width: 90%;
+      margin: 0 auto;
+      max-height: 280px;
+    }
+
+    #main-image img {
+      width: auto;
+      height: 100%;
+    }
+}*/
+
 @media screen and (min-width: 700px) {
   .container {
     max-width: 1200px;
