@@ -1,0 +1,122 @@
+body{
+	display: flex;
+	flex-wrap: wrap;
+	color: grey;
+	font-family: helvetica;
+}
+
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+
+.box {
+	min-height: 100px;
+	width: 100%;
+}
+
+/*
+	header styles
+*/
+
+
+header {
+	border-bottom: 2px solid darkgrey;
+	margin-bottom: 10px;
+}
+
+
+.container {
+	display: flex;
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+
+.logo {
+	min-height: 100px;
+	width: 30%;
+}
+
+
+.logo p{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: cursive;
+	font-size: 4em;
+}
+
+
+.name {
+	min-height: 100px;
+	width: 70%;
+	text-align: right;
+}
+
+
+.name p:first-child {
+	margin-top: .5em;
+	font-family: "helvetica";
+	font-size: 1.5em;
+}
+
+
+.name p:nth-child(2) {
+	margin-top: .5em;
+	font-size: .8em;
+}
+
+
+.name p {
+	margin-right: 5%;
+}
+
+/*
+	main image styles
+*/
+
+#main-image {
+	width: 90%;
+	max-width: 425px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+
+#main-image img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/*
+	featured work styles
+*/
+
+
+#featured-work {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: 20px auto 50px auto;
+}
+
+
+.piece {
+	width: 100%;
+	margin: 20px auto;
+	max-width: 425px;
+	text-align: center;
+}
+
+
+.piece img {
+	width: 100%;
+}
+
+
+.piece-title{
+	margin: 8px 0;
+}

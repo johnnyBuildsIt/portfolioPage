@@ -1,19 +1,57 @@
-@media screen and (max-width: 400px) {
-  body{
-    
+@media screen and (min-width: 485px) {
+  .name p:first-child {
+    font-size: 2.5em;
+  }
+
+
+  .name p:nth-child(2) {
+    font-size: 1.2em;
   }
 }
 
 
-@media screen and (min-width: 401px) and (max-width: 599px) {
-  body{
-    
+@media screen and (min-width: 700px) {
+  .container {
+    max-width: 1200px;
+    width: 95%;
+  }
+
+
+  #main-image {
+    overflow: hidden;
+    max-width: 1100px;
+    width: 95%;
+    max-height: 400px;
+  }
+
+
+  #main-image img {
+    transform: translateY(-30px);
+  }
+
+
+  #featured-work {
+    width: 95%;
+    justify-content: space-between;
+  }
+
+
+  .piece {
+    width: 49%;
+    max-width: 999px;
+    margin: 10px 0;
   }
 }
 
 
-@media screen and (min-width: 600px) {
-  body{
-    
+@media screen and (min-width: 1100px) {
+  body {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+
+  .piece {
+    width: 28.33%;
   }
 }
