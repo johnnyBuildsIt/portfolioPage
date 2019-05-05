@@ -1,6 +1,7 @@
 body{
 	display: flex;
 	flex-wrap: wrap;
+	background-color: orange;
 }
 
 .box {
@@ -42,11 +43,12 @@ header {
 .name p:first-child {
 	margin-top: .5em;
 	font-family: "helvetica";
-	font-size: 2.5em;
+	font-size: 1.5em;
 }
 
 .name p:nth-child(2) {
 	margin-top: .5em;
+	font-size: .8em;
 }
 
 .name p {
@@ -55,17 +57,15 @@ header {
 
 #main-image {
 	width: 90%;
+	max-width: 425px;
+	overflow: hidden;
 	margin: 0 auto;
-	max-height: 700px;
-	max-width: 700px;
 }
 
 #main-image img {
+	display: block;
 	width: 100%;
 	height: auto;
-	max-height: 100%;
-	display: block;
-	margin: 0 auto;
 }
 
 
