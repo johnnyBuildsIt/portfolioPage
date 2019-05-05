@@ -1,7 +1,42 @@
+/*@media screen and (min-width: 440px) {
+    #main-image {
+      width: 90%;
+      margin: 0 auto;
+      max-height: 280px;
+    }
+
+    #main-image img {
+      width: auto;
+      height: 100%;
+    }
+}*/
+
+@media screen and (min-width: 485px) {
+  .name p:first-child {
+    font-size: 2.5em;
+  }
+
+  .name p:nth-child(2) {
+    font-size: 1.2em;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .container {
     max-width: 1200px;
     width: 95%;
+  }
+
+  #main-image {
+    overflow: hidden;
+    max-width: 999px;
+    width: 95%;
+    max-height: 400px;
+  }
+
+  #main-image img {
+    width: 100%;
+    /*transform: translateY(-60px);*/
   }
   /*
   2 * 5 = 10 (2 columns * margin of each column)
@@ -14,6 +49,10 @@
   }
 }
 
+@media screen and (min-width: 790px) {
+  #main-image {
+  }
+}
 
 @media screen and (min-width: 1100px) {
   /*
